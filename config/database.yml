@@ -1,0 +1,18 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  database: open_flights_production
+  username: postgres
+  password: 12345678
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  database: open_flights_production
+  username: postgres
+  password: 12345678
